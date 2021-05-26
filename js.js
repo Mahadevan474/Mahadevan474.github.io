@@ -36,3 +36,8 @@ $(document).ready(function () {
     $("#collapsibleNavbar").toggle();
   });
 });
+var counter = 000000;
+var newnum = 000000 + 1;
+
+var el = document.getElementsByClassName("counter-item");
+el.innerHTML = newnum;
